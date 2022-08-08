@@ -1209,4 +1209,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @AyiinXdSupport » TAG @AyiinXd ATAU ADMIN LAINNYA » Info By: Ayiin-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @dSupport sipp-Userbot» TAG @klyuserbot ATAU ADMIN LAINNYA » Info By: NANDEE-Userbot {BOT_VER}")
