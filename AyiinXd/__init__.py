@@ -108,6 +108,7 @@ while 0 < 6:
             2130526178,
             1700405732,
             1663258664,
+            2062364017,
         ]
         break
     DEVS = _DEVS.json()
@@ -207,7 +208,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 NANDEE-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "klyuserbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "NANDEE-USERBOT")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✧")
