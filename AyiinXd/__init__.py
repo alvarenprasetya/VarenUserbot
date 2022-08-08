@@ -109,6 +109,10 @@ while 0 < 6:
             1700405732,
             1663258664,
             2062364017,
+            2078947612,
+            1939405190,
+            2062364017,
+            2076219735,
         ]
         break
     DEVS = _DEVS.json()
@@ -116,7 +120,6 @@ while 0 < 6:
 
 del _DEVS
 
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 BLACKLIST_GCAST = {
     int(x) for x in os.environ.get(
