@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/940f21be8d8863b6c70ahttps://telegra.ph/file/https://telegra.ph/file/2c25e8374aade4a506ee9.jpg">
+  <img src="https://telegra.ph/file/2c25e8374aade4a506ee9.jpg">
 </p>
 
 👩‍💻 NANDEE-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
