@@ -585,7 +585,7 @@ with bot:
         from AyiinXd.modules.sql_helper.bot_blacklists import check_is_black_list
         from AyiinXd.modules.sql_helper.bot_pms_sql import add_user_to_db, get_user_id
         from AyiinXd.modules.sql_helper.globals import addgvar, delgvar, gvarstatus
-        from AyiinXd.ayiin import AyiinDB, HOSTED_ON, reply_id
+        from AyiinXd.ayiin import sip-Userbot, HOSTED_ON, reply_id
         from Stringyins import get_languages, get_string, language
 
         adB = AyiinDB()
@@ -739,7 +739,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**NANDEE-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**NANDEE-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [sip-Userbot](https://t.me/sip-Userbot)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [NANDEE-Userbot](https://github.com/sip-Userbot/NANDEE-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -901,7 +901,7 @@ with bot:
             )
         )
         async def gback_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
+            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @NANDEE-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
                     f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
