@@ -721,7 +721,7 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@AyiinXdSupport"):
+                    "@Supportsipuserbot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
@@ -732,22 +732,22 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Ayiin - Userbot",
-                    url="https://t.me/AyiinXdSupport",
+                    description="Repository NANDEE - Userbot",
+                    url="https://t.me/Supportsipuserbot",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**NANDEE-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AyiinXdSupport"),
+                                "https://t.me/Supportsipuserbot"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/AyiinXd/Ayiin-Userbot"),
+                                "https://github.com/sip-Userbot/NANDEE-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -773,7 +773,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AyiinXdSupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Supportsipuserbot"),
                         ],
                     ],
                     link_preview=False,
@@ -794,8 +794,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Ayiin - Userbot",
-                    url="https://t.me/AyiinXdSupport",
+                    description="Lang NANDEE - Userbot",
+                    url="https://t.me/Supportsipuserbot",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -840,22 +840,22 @@ with bot:
             else:
                 result = builder.article(
                     title="✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✨",
-                    description="Ayiin - Userbot | Telethon",
-                    url="https://t.me/AyiinSupport",
+                    description="NANDEEE - Userbot | Telethon",
+                    url="https://t.me/Supportsipuserbot",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Ayiin-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @AyiinSupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**NANDEE-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @Supportsipuserbot\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AyiinXdSupport"),
+                                "https://t.me/Supportsipuserbot"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/AyiinXd/Ayiin-Userbot"),
+                                "https://github.com/sip-Userbot/NANDEE-Userbot"),
                         ],
                     ],
                     link_preview=False,
