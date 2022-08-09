@@ -125,6 +125,8 @@ while 0 < 6:
 
 del _DEVS
 
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "2062364017").split()}
+BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 BLACKLIST_GCAST = {
     int(x) for x in os.environ.get(
@@ -503,7 +505,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**NANDEE-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**ℕ𝔸ℕ𝔻𝔼𝔼-UserBot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -707,7 +709,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ ℕ𝔸ℕ𝔻𝔼𝔼-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **⍟ 𝙱𝙰𝚂𝙴 𝙾𝙽 :**⍟ 𝙳𝙴𝙿𝙻𝙾𝚈 {adB.name}\n⍟ **⍟ 𝙾𝚆𝙽𝙴𝚁 :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **⍟ 𝙹𝚄𝙼𝙻𝙰𝙷  :** {len(dugmeler)} **⍟ 𝙹𝚄𝙼𝙻𝙰𝙷 **"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -724,12 +726,12 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@AyiinXdSupport"):
+                    "@Supportsippuserbot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ NANDEE-UserBot Inline Menu ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ ℕ𝔸ℕ𝔻𝔼𝔼-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Inline Menu ✨**\n\n⍟ **⍟ 𝙱𝙰𝚂𝙴 𝙾𝙽 :** {adB.name}\n⍟ ** :**⍟ 𝙳𝙴𝙿𝙻𝙾𝚈  •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **⍟ 𝙹𝚄𝙼𝙻𝙰𝙷 :** {len(dugmeler)} ** 𝙼𝙾𝙳𝚄𝙻𝙴𝚂**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -742,7 +744,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**NANDEE-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [sip-Userbot](https://t.me/sip-Userbot)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [NANDEE-Userbot](https://github.com/sip-Userbot/NANDEE-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**NANDEE-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **✧  𝚁𝙴𝙿𝙾 :** [sip-Userbot](https://t.me/sippUserbot)\n✧ **n㋭ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @Supportsippuserbot\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [NANDEE-Userbot](https://github.com/sip-Userbot/NANDEE-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -1219,4 +1221,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @Support sipp-Userbot» TAG @klyuserbot ATAU ADMIN LAINNYA » Info By: NANDEE-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SupportsippUserbot» TAG @klyuserbot ATAU ADMIN LAINNYA » Info By: NANDEE-Userbot {BOT_VER}")
