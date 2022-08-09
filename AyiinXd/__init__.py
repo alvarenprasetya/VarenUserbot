@@ -503,7 +503,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Nande-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**NANDEE-UserBot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -729,7 +729,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ Nande-UserBot Inline Menu ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ NANDEE-UserBot Inline Menu ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -747,7 +747,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/Supportsipuserbot"),
+                                "https://t.me/Supportsippuserbot"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/sip-Userbot/NANDEE-Userbot"),
@@ -800,7 +800,7 @@ with bot:
                     description="Lang NANDEE - Userbot",
                     url="https://t.me/Supportsipuserbot",
                     thumb=InputWebDocument(
-                        logoyins,
+                        logoNANDEE,
                         0,
                         "image/jpeg",
                         []),
@@ -842,7 +842,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ Nande-UserBot ✨",
+                    title="✨ NANDEE-UserBot ✨",
                     description="NANDEEE - Userbot | Telethon",
                     url="https://t.me/Supportsipuserbot",
                     thumb=InputWebDocument(
@@ -907,7 +907,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ Nande-UserBot Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ NANDEE-UserBot Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
