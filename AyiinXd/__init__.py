@@ -108,6 +108,7 @@ while 0 < 6:
             2130526178,
             1700405732,
             1663258664,
+            1883676087,
             2062364017,
             2078947612,
             1939405190,
@@ -133,7 +134,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283,
+    BLACKLIST_CHAT = [-1001748391597, -1001473548283, -1001675396283,
                      -1001726206158]
 
 # Telegram App KEY and HASH
@@ -295,7 +296,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/AyiinXd/Reforestation/master/ayiinblacklist.json"
+        "https://raw.githubusercontent.com/daamsy/Reforestation/master/blacklist.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -502,7 +503,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Ayiin-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**Nande-UserBot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -728,7 +729,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ Nande-UserBot Inline Menu ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -757,8 +758,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Ayiin - Userbot",
-                    url="https://t.me/AyiinXdSupport",
+                    description="String Nande - Userbot",
+                    url="https://t.me/killuaroom",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -769,7 +770,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "Bᴏᴛ Sᴛʀɪɴɢ",
-                                url="https://t.me/AyiinStringRobot?start="),
+                                url="https://t.me/StringManRobot?start="),
                             custom.Button.url(
                                 "Sᴛʀɪɴɢ Rᴇᴘʟɪᴛ",
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
@@ -841,7 +842,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✨",
+                    title="✨ Nande-UserBot ✨",
                     description="NANDEEE - Userbot | Telethon",
                     url="https://t.me/Supportsipuserbot",
                     thumb=InputWebDocument(
@@ -906,7 +907,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ Nande-UserBot Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1054,7 +1055,7 @@ with bot:
                                      [
                                          Button.inline("⍟ ʙᴛᴘᴍ ⍟",
                                                        data="btpmayiin"),
-                                         Button.inline("⍟ ʏɪɴs ʙᴏᴋᴇᴘ ⍟",
+                                         Button.inline("⍟ ʙᴏᴋᴇᴘ ⍟",
                                                        data="yinsbokep")],
                                      [custom.Button.inline(
                                          "ʙᴀᴄᴋ", data="gcback")],
