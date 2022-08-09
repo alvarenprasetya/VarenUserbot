@@ -310,8 +310,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-gc = str("@ruangdiskusikami")
-ch = str("@ruangprojects")
+gc = str("@suportsippuserbot")
+ch = str("@projectsip")
 
 while 0 < 6:
     _WHITELIST = get(
