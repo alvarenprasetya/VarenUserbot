@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@Supportsipp-Userbot](https://t.me/Supportsipp-userbot) untuk info Update bot dan Gabung Group [@Supportsipp-userbot](https://t.me/Support-userbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang NANDEE-Userbot.
+Follow Channel [@SuportsipUserbot](https://t.me/Supportsipp-userbot) untuk info Update bot dan Gabung Group [@Supportsipp-userbot](https://t.me/Support-userbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang NANDEE-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
