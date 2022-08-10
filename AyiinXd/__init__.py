@@ -311,7 +311,7 @@ while 0 < 6:
 
 del _BLACKLIST
 
-gc = str("@suportsippuserbot")
+gc = str("@suportsipuserbot")
 ch = str("@projectsip")
 
 while 0 < 6:
@@ -1222,4 +1222,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SupportsippUserbot» TAG @klyuserbot ATAU ADMIN LAINNYA » Info By: NANDEE-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SupportsipUserbot» TAG @klyuserbot ATAU ADMIN LAINNYA » Info By: NANDEE-Userbot {BOT_VER}")
