@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/AyiinXd/Ayiin-Userbot`
+ • `git clone https://github.com/sip-userbot/NANDEE-Userbot`
 
- • `cd Ayiin-Userbot`
+ • `cd NANDEE-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Ayiin-Userbot`
+ • `screen -S NANDEE-Userbot`
 
  • `bash start`
 
