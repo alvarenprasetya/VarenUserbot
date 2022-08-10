@@ -40,7 +40,7 @@ try:
     LOGS.info(f"Telethon Version - {version.__version__} [Layer: {LAYER}]")
     LOGS.info(f"PyTgCalls Version - {pytgcalls.__version__}")
     LOGS.info(f"Userbot Version - {ubotversion} •[{adB.name}]•")
-    LOGS.info(f"klyuserbot Version - {NANDEE_version} •[{HOSTED_ON}]•")
+    LOGS.info(f"klyuserbot Version - {Ayiin_version} •[{HOSTED_ON}]•")
     LOGS.info("[✨ NANDEE-USERBOT BERHASIL DIAKTIFKAN! ✨]")
 except (ConnectionError, KeyboardInterrupt, NotImplementedError, SystemExit):
     pass
