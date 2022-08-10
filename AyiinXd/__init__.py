@@ -259,7 +259,7 @@ PLAY_PIC = (os.environ.get("PLAY_PIC")
             or "https://telegra.ph/file/e6c5ff0189cc4c7e0c913.png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
+             or "https://telegra.ph/file/58e87a4527649af555a6a.png")
 
 DEFAULT = list(map(int, b64decode("MTcwMDQwNTczMg==").split()))
 
