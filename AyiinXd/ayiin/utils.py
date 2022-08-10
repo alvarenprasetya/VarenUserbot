@@ -154,7 +154,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
+            await bot.send_file(bf, "AyiinXd/resources/MG-20220810-WA0019.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
