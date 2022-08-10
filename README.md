@@ -1,4 +1,4 @@
- <h1 align="center">✨ NANDEE-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">✨ VAR-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
 
 <a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/2c25e8374aade4a506ee9.jpg">
+  <img src="https://telegra.ph/file/14533de482fed289eab8f.jpg">
 </p>
 
 👩‍💻 NANDEE-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
